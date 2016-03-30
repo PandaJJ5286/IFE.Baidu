@@ -1,0 +1,7 @@
+html,body,div{margin:0px;padding:0px;}
+html,body{background-color: #eee;height:100%}
+.content{position:relative;width:100%;border:1px solid #999;margin:20px;padding: 20px;max-height: 500px;height:100%;}
+.left,.right{position:absolute;top:0;}
+.left{background-color: yellow;width:200px;height:100%;}
+.main{background-color: red;margin:0 140px 0 220px;height:100%;}
+.right{background-color: black;right:0;width:120px;height:100%;}
