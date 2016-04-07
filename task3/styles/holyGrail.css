@@ -1,10 +1,13 @@
 html,body,div,h4{margin:0px;padding:0px;font-family: Arial, 'Times New Roman', '微软雅黑'，'宋体' }
-#content{background-color: #eee;border:1px solid #999;margin:20px;padding: 20px;max-height: 500px;overflow:auto;}
-#left,#main,#right{float:left;}
-#left{width:200px;}
-#right{width:120px;}
-#left,#right,#main{background-color: white;border: 1px solid #999;}
+#wrap{background-color: #eee;border:1px solid #999;margin:20px;padding: 20px;max-height: 500px;overflow:auto;}
+#content{padding:0 140px 0 220px;}
+#content:after{display: block;content: "";clear:both;overflow: hidden;}
+#left,#right,#main{float:left;background-color: white;border: 1px solid #999;}
+#main{padding:20px;}
+#left{width:200px;margin-left:-100%;position: relative; left: -220px;}
+#right{width:120px;margin-left:-122px;position: relative;  right: -140px;}
 
 p{text-indent: 2em;}
 .layout-img{width:80px;height:80px;border:1px solid #999;margin: 20px;display: inline-block;}
 .team-img{margin-bottom: 0px;}
+.team-name{position: absolute;top:20px;right:20px;}
